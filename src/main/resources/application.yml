@@ -1,0 +1,21 @@
+micronaut:
+  application:
+    name: helloWorld
+dataSource:
+  url: jdbc:mysql://localhost:3306/servicedirectory
+  driverClassName: com.mysql.jdbc.Driver
+  username: services
+  password: services
+  pooled: true
+  jmxExport: true
+hibernate:
+  hbm2ddl:
+    auto: update
+  cache:
+    queries: false
+    use_second_level_cache: false
+    use_query_cache: false
+netty:
+  default:
+    allocator:
+      max-order: 3

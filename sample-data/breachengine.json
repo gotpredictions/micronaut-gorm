@@ -1,0 +1,19 @@
+{
+    "frontend": {
+        "beweb": {
+            "type": "pod",
+            "name": "Breach Engine Frontend Web",
+            "purpose": "",
+            "thirdparty": false
+        },
+        "mongo-express": {
+            "type": "vm",
+            "name": "Mongo Express UI",
+            "purpose": "Inspect Breach Metadata without having to login into the infrastructure",
+            "thirdparty": true
+        }
+    },
+    "backend": {
+        
+    }
+}
