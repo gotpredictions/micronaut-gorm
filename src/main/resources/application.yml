@@ -3,9 +3,9 @@ micronaut:
     name: helloWorld
 dataSource:
   url: jdbc:mysql://localhost:3306/servicedirectory
-  driverClassName: com.mysql.jdbc.Driver
-  username: services
-  password: services
+  driverClassName: com.mysql.cj.jdbc.Driver
+  username: root
+  password: root
   pooled: true
   jmxExport: true
 hibernate:
