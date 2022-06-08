@@ -30,7 +30,7 @@ dependencies {
 
 
 application {
-    mainClass.set("hello.world.Application")
+    mainClass.set("hello.Application")
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("11")

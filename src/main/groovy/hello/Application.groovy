@@ -1,4 +1,4 @@
-package hello.world
+package hello
 
 import io.micronaut.runtime.Micronaut
 import groovy.transform.CompileStatic
